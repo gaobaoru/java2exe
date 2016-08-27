@@ -1,0 +1,21 @@
+package com.java.convert;
+
+import java.util.Scanner;
+
+public class Time_convert {
+
+	private static Scanner in;
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		in = new Scanner(System.in);
+		int bjt = in.nextInt();
+		int utc = bjt - 800;
+		System.out.println(utc);
+		
+		
+	}
+
+}
