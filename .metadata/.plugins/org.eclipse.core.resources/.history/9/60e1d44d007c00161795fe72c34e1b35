@@ -1,0 +1,15 @@
+package com.src;
+
+public class Test {
+	static final int testa = 1;
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		final int ok;
+		ok = 1;
+		String s = "abc";
+		String ss = new String("abc");
+	}
+}

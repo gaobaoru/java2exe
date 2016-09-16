@@ -1,0 +1,22 @@
+package com.src;
+
+public class Test {
+	static int a;
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		int a = 0;
+		System.out.println(a);
+		String s = new String("abc");
+		System.out.println(s);
+		
+		System.out.println("Hello world!");
+		for(String arg : args){
+			System.out.println("arg  is " + arg);
+		}
+	}
+
+}

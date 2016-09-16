@@ -1,0 +1,40 @@
+2016年9月14日
+一、java入门
+1、主要讲javaSE,还有javaEE、javaME(后面两者不讲)，适用于java初学者
+2、java参考书：java核心技术、Effective Java中文版、分布式java应用（基础与实践）。
+3、JVM源代码（可以查看）、hadoop(java实现的大型分布式架构)、hashmap（如何实现，看源代码）
+4、java历史 1991 James Gosling, hadoop(用javaSE编写)
+5、JDK（development kit 开发者包）\（JDK包含JRE）
+   JRE（java runtime environment 执行环境（包含development））
+   \Java的区别，基于scala的框架：kafka/spark/flink
+   .java ---> .class(字节码)，需要在执行环境下执行
+6、语言特性：平台无关性、简单性、面向对象、多线程、动态性、可靠性、安全性。。。。
+7、public class 与文件名相同；main 入口
+8、java环境搭建、基本数据类型介绍
+（1）内置数据类型:byte(8bit,1个字节)；short(16bit,2个字节)；int(32bit,4个字节);long(64bit,8个字节)
+float（4字节）;double（8字节）;char(16bit,2个字节);boolean（1bit,但占用一个字节，默认为false）其余默认为0
+（2）引用数据类型:class;interface;array(默认值为null)
+9、变量和常量
+（1）变量：byte[] buf = new byte[1024];
+int value = 1;
+（2）常量：final int x = 1;
+（3）作用域：
+局部变量；大括号包含的成为一个block（外面看不到里面的，但里面的可以看到外面的）
+方法参数；类成员变量；异常处理参数（Exception）
+10、对象和类
+不同包的类的名字就可以
+11、修饰符和运算符
+修饰符：private(同一类可以访问);protected（同类，同包，不同包子类）;public（同类，同包，不同包子类，不同包非子类）;default（同包，同类）;
+注意：父类中为public，子类中只能为public
+父类中为protected，子类中只能为public或protected
+父类中为private,不能够被继承
+扩展类用extends,上面修饰符对访问权限进行了控制
+运算符：算术、赋值、关系、逻辑、位运算符、instanceof（判断是不是一个类）
+12、不错的练习网站
+codingbat.com
+vim 下注释命令：
+<ctrl+v>
+jjjjj
+I
+//
+<esc>+<esc>

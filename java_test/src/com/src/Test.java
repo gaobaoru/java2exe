@@ -1,0 +1,23 @@
+package com.src;
+
+public class Test {
+	public static void main(String args[]) {
+		int n = Integer.parseInt(args[0]);
+		int temp;
+		int temp1 = 1;
+		int temp2 = 1;
+		float sum = temp1 + temp2;
+		System.out.print(temp1 + " ");
+		System.out.print(temp2 + " ");
+		int i = n;
+		while (i-- > 2) {
+			temp = temp1 + temp2;
+			sum += temp;
+			System.out.print(temp + " ");
+			temp1 = temp2;
+			temp2 = temp;
+		}
+		System.out.println();
+		System.out.println("Average is " + sum/n);
+	}
+}

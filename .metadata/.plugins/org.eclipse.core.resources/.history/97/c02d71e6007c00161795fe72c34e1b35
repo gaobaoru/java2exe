@@ -1,0 +1,26 @@
+package com.src;
+
+import com.src.Test;
+public class Test {
+	public static class Dog {
+		private String name;
+
+		public Dog(String name) {
+			this.name = name;
+		}
+
+		public String getName() {
+			return this.name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Dog dog = new Dog("littledog");
+		System.out.println("The dog name is " + dog.getName());
+	}
+}

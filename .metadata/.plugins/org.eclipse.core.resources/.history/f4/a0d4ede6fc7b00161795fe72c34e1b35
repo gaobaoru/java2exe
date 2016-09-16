@@ -1,0 +1,21 @@
+package com.src;
+
+//import java.io.File;
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello world!");
+		for(String arg : args){
+			System.out.println("arg  is " + arg);
+		}
+//		System.out.println("args 1 is " + args[0]);
+
+//		File file = new File("A");
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.src;
+
+public class Test{
+    public static void main(String args[]){
+            int i = 1;
+            int n = Integer.parseInt(args[0]);
+            int temp;
+            int temp1 = 1;
+            int temp2 = 1;
+            System.out.println(temp1 + " " + temp2 + " ");
+            while(n-- > 2){
+                    temp = temp1 + temp2;
+                    System.out.println(temp + " ");
+                    temp1 = temp2;
+                    temp2 = temp;
+            }
+    }
+}
+
