@@ -1,0 +1,40 @@
+用已学的知识，实现一个简单的对话机器人功能。
+
+
+1. 机器人可以用两种身份启动：当Java命令行参数传入的是Judy时，比如java cn.chinahadoop.java.Robot Judy，机器人以Judy身份启动。当启动Java虚拟机时，参数传入的是Max时，机器人以Max身份启动。
+
+
+2. 当机器人以Judy身份启动之后，用户可以通过控制台输入一些问题，Judy给出事先准备好的答案：
+
+
+  （1）输入Hi，Judy回答Hi honey。
+
+
+  （2）输入Ping，Judy回答Pong。
+
+
+  （3）输入Bye，Judy回答See you。
+
+
+  （4）输入其他时，Judy回答No match answer!。
+
+
+  （5）一旦输入Bye并且Judy回答See you之后，程序退出。
+
+
+3. 当机器人以Max身份启动之后，用户可以通过控制台输入一些问题，Max给出事先准备好的答案：
+
+
+  （1）输入Hi，Max回答Hi what's up。
+
+
+  （2）输入Ping，Max回答Ping。
+
+
+  （3）输入Bye，Max回答8。
+
+
+  （4）输入其他时，Max回答No match answer!。
+
+
+  （5）一旦输入Bye并且Max回答8之后，程序退出。
