@@ -1,0 +1,22 @@
+2016年9月22日（java基础1）
+1、方法、Main程序入口；源代码编译之后将java代码变成字节码，在虚拟机中执行字节码，可以传入参数。
+可以有多个main，指定主程序入口即可。类中也可以嵌套类
+2、for循环介绍1243243243。。。2不满足退出
+foreach循环，while,do...while(),break(跳出循环),continue（跳出当前循环）;
+3、条件判断语句 if ... else/ if ... else if ... else
+switch语句，一些关系运算符> >= 等，特殊情况string .equals(a)
+4、认识字符串：字符的序列，在java中，一个字符串是一个对象，以String类型表示。java对象分配在堆中的。
+String greeting = "Hello world!" 分两步：创建"Hello world"常量，用greeting引用该内容；
+String一共有13个构造函数；
+String一旦创建，不可更改。对象不变，只是引用指向变了。
+如：String a = "abc";
+a += "def";//这两句话一共产生了两个String 对象。重新生成了一个新的对象，只是引用变了。
+String常用方法：string.length();string1.concat(string2);string.substr(beginIndex,endIndex)(包含开始，不包含结束);string.startsWith(String prefix)（返回boolean类型）
+equals判断的是内容是否相同
+a==b中是判断a和b是否为同一个对象。
+java常量池中的内容是不回收的。
+5、常用类：Character、Byte、Short、Integer、Long、Double、Boolean等
+StringBuffer线程安全的，StringBuild是非线程安全。synchronized关键字表示是不能用于两个线程的。
+常用类System：输出1out，2err;标准输入；数组拷贝；系统操作；文件加载。
+Math:sin,cos,max,min,round,sqrt,exp,abs,random(求0-1之间的小数)
+6、数组：用引用类型指定，元素单一类型，通过下标访问，创建时指定不可更改。拷贝用System.arraycopy函数

@@ -1,0 +1,23 @@
+package com.src;
+
+public class Test1 {
+	
+	public class Dog { }
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("I am test1");
+		for(String arg : args){
+			System.out.println(arg);
+		}
+		int[] array = {1,2,3,4,5,6};
+		for(int a : array){
+			System.out.println(a);
+		}
+		String[] sArray={"abc", "adhka", "akda"};
+		for(String s : sArray){
+			System.out.println(s);
+		}
+	}
+
+}

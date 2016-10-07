@@ -1,0 +1,14 @@
+package com.src;
+
+import java.util.Set;
+
+public class Test1 {
+
+	public class Dog {
+	}
+
+	public static void main(String[] args) {
+		Set<Integer> set = HashSet<Integer>();
+		set.add(1);
+	}
+}
