@@ -1,0 +1,51 @@
+2016年10月16日
+Hbase原理简介：
+一、Hbase是分布式的，基于列的开源数据库；
+
+二、Hbase特点：
+1、key-value类型的DB
+2、列式存储
+3、线性扩展
+可以处理PB以上的数据
+4、高可靠性
+可以运行在廉价PC上，无单点问题
+5、强一致性
+
+三、Hbase的数据类型
+行、列族、列名（在写入时决定）、Cell及时间戳（每个Cell中可以有任意多个版本）
+表、Region(负载均衡调度的最小单位)
+
+四、Hbase API
+1、Put/Get：针对某个key进行读或写操作，可以独立的写入某个Column
+2、Scan:顺序扫描
+3、MapReduc：并发扫描
+4、Bulk Load：一种快速导入大批量数据的方法
+5、Replication：使用Journal实现数据备份
+
+五、Hbase的系统组成
+需要三大组件：Master(主控节点，负载均衡；错误恢复；Meta数据的事务控制)/RegionServer（读写数据；Split）/Zookeeper（分布式锁服务，实现互斥和共享，提供分布式环境下的多机协调功能；哪些服务还活着；定位Root Region）
+Hbase同Hadoop一同部署
+数据组织：三级表结构
+数据存储：系统矩阵-列式存储；基于HDFS：“不可更改”的FS上实现的可随机更新的DB;基于廉价硬件（随时可能有服务器发生故障）；支持较高的写入速度（写性能比读性能高很多）；强一致性；LSM树。
+Hbase的数据单元：顺序密集存储的“原子”数据（row key + column + qualifier + version）
+底层文件结构：HFile（基于Block存储数据，Block索引常驻内存，默认BlockSize=64k）
+
+六、Hbase的主要操作
+1、Flush（内存容量有限，需要定期将内存数据Flush到磁盘；每次Flush，每个Region的每个列族会产生一个HFile）
+2、Compaction（FLush产生的Hfile越来越多，需要归并以控制文件数量；同时归并数据被清理）
+3、Split（Region数据会持续增长；需要进行Split，以实现负载均衡）
+Master节点作用：实现事务控制
+
+七、Hbase错误恢复
+1、Master通过Zookeeper感知各个RegionServer的状况
+2、通过HLog实现错误恢复：每个RegionServer维护一个HLog；Master将相关数据剥离到不同的Region存储目录下，新的RegionServer进行数据重建
+
+八、Hbase中的性能优化设计
+1、Split时并不马上拷贝数据
+2、Compact归并文件并清理无用数据，同时有利于数据的本地化
+3、支持面向列族的压缩：通过将同类型列放到一个列族，可提高压缩比；采用LZO压缩
+4、数据写入优化：仅仅写入HLog(HDFS)和内存
+5、支持BloomFilter：快速查询是否存在某个数据
+6、RegionServer支持Cache
+7、支持MapReduce
+8、支持BulkLoad
