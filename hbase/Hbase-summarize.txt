@@ -49,3 +49,5 @@ Master节点作用：实现事务控制
 6、RegionServer支持Cache
 7、支持MapReduce
 8、支持BulkLoad
+
+建议：Hbase直接看代码比较好
