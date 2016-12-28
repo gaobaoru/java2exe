@@ -1,0 +1,4 @@
+127.0.0.1 - - [28/Dec/2016:16:45:10 +0800] "GET /Restaurant/noodles HTTP/1.1" 200 57 http-bio-8080-exec-1 433
+127.0.0.1 - - [28/Dec/2016:16:45:37 +0800] "GET /Restaurant/noodles?vegetable=Apple HTTP/1.1" 200 56 http-bio-8080-exec-3 5
+127.0.0.1 - - [28/Dec/2016:16:46:32 +0800] "GET /Restaurant/noodles?vegetable=carrot HTTP/1.1" 200 57 http-bio-8080-exec-5 2
+127.0.0.1 - - [28/Dec/2016:16:46:54 +0800] "GET /Restaurant/noodles?vegetable=ç½è HTTP/1.1" 200 53 http-bio-8080-exec-7 2
