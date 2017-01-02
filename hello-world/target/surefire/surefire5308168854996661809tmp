@@ -1,0 +1,5 @@
+#surefire
+#Mon Jan 02 16:51:16 CST 2017
+user.dir=/home/gaoaoru/java2exe/hello-world
+localRepository=/home/gaoaoru/.m2/repository
+basedir=/home/gaoaoru/java2exe/hello-world

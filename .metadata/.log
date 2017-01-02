@@ -138,3 +138,244 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SESSION 2016-12-29 21:11:39.677 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-12-29 21:23:21.865
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-12-29 21:23:21.865
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-12-29 21:23:21.865
+!MESSAGE Software being installed: Maven SCM handler for Subclipse 0.12.0.20101207-1600 (org.maven.ide.eclipse.subclipse.feature.feature.group 0.12.0.20101207-1600)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-12-29 21:23:21.865
+!MESSAGE Missing requirement: Maven SCM handler for Subclipse 0.12.0.20101207-1600 (org.maven.ide.eclipse.subclipse.feature.feature.group 0.12.0.20101207-1600) requires 'org.tigris.subversion.subclipse.core 0.0.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-12-29 21:23:21.893
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-12-29 21:23:21.893
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-12-29 21:23:21.893
+!MESSAGE Software being installed: Maven SCM handler for Subclipse 0.12.0.20101207-1600 (org.maven.ide.eclipse.subclipse.feature.feature.group 0.12.0.20101207-1600)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-12-29 21:23:21.893
+!MESSAGE Missing requirement: Maven SCM handler for Subclipse 0.12.0.20101207-1600 (org.maven.ide.eclipse.subclipse.feature.feature.group 0.12.0.20101207-1600) requires 'org.tigris.subversion.subclipse.core 0.0.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-12-29 21:24:51.420
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-12-29 21:24:51.420
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-12-29 21:24:51.420
+!MESSAGE Software being installed: Web Application Runner 0.1.0.201105060943 (com.sonatype.m2e.webby.feature.feature.group 0.1.0.201105060943)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-12-29 21:24:51.420
+!MESSAGE Missing requirement: In-situ Web Application Launcher for M2Eclipse 0.1.0.201105060943 (com.sonatype.m2e.webby 0.1.0.201105060943) requires 'bundle org.eclipse.m2e.core [0.13.0,0.14.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-12-29 21:24:51.420
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-12-29 21:24:51.421
+!MESSAGE From: Web Application Runner 0.1.0.201105060943 (com.sonatype.m2e.webby.feature.feature.group 0.1.0.201105060943)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-12-29 21:24:51.421
+!MESSAGE To: com.sonatype.m2e.webby.jetty7x [0.1.0.201105060943]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-12-29 21:24:51.421
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-12-29 21:24:51.421
+!MESSAGE From: In-situ Web Application Launcher for M2Eclipse, Embedded Jetty 7.x Support 0.1.0.201105060943 (com.sonatype.m2e.webby.jetty7x 0.1.0.201105060943)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-12-29 21:24:51.421
+!MESSAGE To: bundle com.sonatype.m2e.webby 0.1.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-12-29 21:24:51.424
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-12-29 21:24:51.425
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-12-29 21:24:51.425
+!MESSAGE Software being installed: Web Application Runner 0.1.0.201105060943 (com.sonatype.m2e.webby.feature.feature.group 0.1.0.201105060943)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-12-29 21:24:51.425
+!MESSAGE Missing requirement: In-situ Web Application Launcher for M2Eclipse 0.1.0.201105060943 (com.sonatype.m2e.webby 0.1.0.201105060943) requires 'bundle org.eclipse.m2e.core [0.13.0,0.14.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-12-29 21:24:51.425
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-12-29 21:24:51.426
+!MESSAGE From: Web Application Runner 0.1.0.201105060943 (com.sonatype.m2e.webby.feature.feature.group 0.1.0.201105060943)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-12-29 21:24:51.426
+!MESSAGE To: com.sonatype.m2e.webby.jetty7x [0.1.0.201105060943]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-12-29 21:24:51.426
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-12-29 21:24:51.426
+!MESSAGE From: In-situ Web Application Launcher for M2Eclipse, Embedded Jetty 7.x Support 0.1.0.201105060943 (com.sonatype.m2e.webby.jetty7x 0.1.0.201105060943)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-12-29 21:24:51.426
+!MESSAGE To: bundle com.sonatype.m2e.webby 0.1.0
+!SESSION 2016-12-29 21:31:49.543 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 2 1 2016-12-29 21:33:23.199
+!MESSAGE NLS unused message: bensonMonitor_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-12-29 21:33:23.261
+!MESSAGE NLS unused message: bensonMonitor_unknown_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-12-29 21:33:23.284
+!MESSAGE NLS missing message: hudsonMonitor_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-12-29 21:33:23.285
+!MESSAGE NLS missing message: hudsonMonitor_unknown_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.ui 2 2 2016-12-29 21:43:12.518
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+
+!ENTRY org.maven.ide.eclipse 4 0 2016-12-29 21:43:16.398
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: transfer has been cancelled by user
+	at org.maven.ide.eclipse.internal.index.AsyncFetcher$PipedErrorInputStream.checkError(AsyncFetcher.java:181)
+	at org.maven.ide.eclipse.internal.index.AsyncFetcher$PipedErrorInputStream.read(AsyncFetcher.java:188)
+	at java.io.PipedInputStream.read(PipedInputStream.java:378)
+	at java.io.InputStream.read(InputStream.java:101)
+	at org.codehaus.plexus.util.IOUtil.copy(IOUtil.java:188)
+	at org.codehaus.plexus.util.IOUtil.copy(IOUtil.java:174)
+	at org.codehaus.plexus.util.FileUtils.copyStreamToFile(FileUtils.java:1108)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$LocalCacheIndexAdaptor.setIndexFile(DefaultIndexUpdater.java:868)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:995)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1072)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1025)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:632)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.IOException: transfer has been cancelled by user
+	at org.maven.ide.eclipse.internal.index.AsyncFetcher$RequestHandler.checkCancel(AsyncFetcher.java:225)
+	at org.maven.ide.eclipse.internal.index.AsyncFetcher$RequestHandler.onBodyPartReceived(AsyncFetcher.java:232)
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.updateBodyAndInterrupt(NettyAsyncHttpProvider.java:1283)
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.messageReceived(NettyAsyncHttpProvider.java:1041)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:80)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:545)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:754)
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.handleUpstream(ChunkedWriteHandler.java:144)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:545)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:754)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:131)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:80)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:545)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:754)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:302)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.unfoldAndfireMessageReceived(ReplayingDecoder.java:523)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:507)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:444)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:80)
+	at org.jboss.netty.handler.codec.http.HttpClientCodec.handleUpstream(HttpClientCodec.java:77)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:545)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:540)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:274)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:261)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:350)
+	at org.jboss.netty.channel.socket.nio.NioWorker.processSelectedKeys(NioWorker.java:281)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:201)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.IoWorkerRunnable.run(IoWorkerRunnable.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-12-29 21:43:16.404
+!MESSAGE An internal error occurred during: "Updating indexes".
+!STACK 0
+java.lang.NullPointerException
+	at org.maven.ide.eclipse.internal.console.MavenConsoleImpl.showConsoleOnError(MavenConsoleImpl.java:277)
+	at org.maven.ide.eclipse.internal.console.MavenConsoleImpl.logError(MavenConsoleImpl.java:262)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1119)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1025)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:632)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2017-01-02 16:31:00.632 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-02 16:33:24.094
+!MESSAGE NLS unused message: bensonMonitor_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-02 16:33:24.164
+!MESSAGE NLS unused message: bensonMonitor_unknown_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-02 16:33:24.181
+!MESSAGE NLS missing message: hudsonMonitor_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-02 16:33:24.183
+!MESSAGE NLS missing message: hudsonMonitor_unknown_build_error in: com.sonatype.buildserver.eclipse.ui.messages
+
+!ENTRY org.eclipse.ui 2 2 2017-01-02 16:50:34.748
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+
+!ENTRY org.maven.ide.eclipse 4 0 2017-01-02 16:57:22.391
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: transfer has been cancelled by user
+	at org.maven.ide.eclipse.internal.index.AsyncFetcher$PipedErrorInputStream.checkError(AsyncFetcher.java:181)
+	at org.maven.ide.eclipse.internal.index.AsyncFetcher$PipedErrorInputStream.read(AsyncFetcher.java:188)
+	at java.io.PipedInputStream.read(PipedInputStream.java:378)
+	at java.io.InputStream.read(InputStream.java:101)
+	at org.codehaus.plexus.util.IOUtil.copy(IOUtil.java:188)
+	at org.codehaus.plexus.util.IOUtil.copy(IOUtil.java:174)
+	at org.codehaus.plexus.util.FileUtils.copyStreamToFile(FileUtils.java:1108)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$LocalCacheIndexAdaptor.setIndexFile(DefaultIndexUpdater.java:868)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:995)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1072)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1025)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:632)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.IOException: transfer has been cancelled by user
+	at org.maven.ide.eclipse.internal.index.AsyncFetcher$RequestHandler.checkCancel(AsyncFetcher.java:225)
+	at org.maven.ide.eclipse.internal.index.AsyncFetcher$RequestHandler.onBodyPartReceived(AsyncFetcher.java:232)
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.updateBodyAndInterrupt(NettyAsyncHttpProvider.java:1283)
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.messageReceived(NettyAsyncHttpProvider.java:1041)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:80)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:545)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:754)
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.handleUpstream(ChunkedWriteHandler.java:144)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:545)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:754)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:131)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:80)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:545)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:754)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:302)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.unfoldAndfireMessageReceived(ReplayingDecoder.java:523)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:507)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:444)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:80)
+	at org.jboss.netty.handler.codec.http.HttpClientCodec.handleUpstream(HttpClientCodec.java:77)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:545)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:540)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:274)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:261)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:350)
+	at org.jboss.netty.channel.socket.nio.NioWorker.processSelectedKeys(NioWorker.java:281)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:201)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.IoWorkerRunnable.run(IoWorkerRunnable.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-01-02 16:57:22.431
+!MESSAGE An internal error occurred during: "Updating indexes".
+!STACK 0
+java.lang.NullPointerException
+	at org.maven.ide.eclipse.internal.console.MavenConsoleImpl.showConsoleOnError(MavenConsoleImpl.java:277)
+	at org.maven.ide.eclipse.internal.console.MavenConsoleImpl.logError(MavenConsoleImpl.java:262)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1119)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1025)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:632)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 2 2 2017-01-02 16:57:22.611
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob
